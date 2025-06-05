@@ -1,0 +1,287 @@
+body {
+    margin: 0
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sivu {
+    display: flex;
+}
+
+.sivun__yläpalkki {
+    display: flex;
+}
+
+.yläpalkin__ensimmäinen-rivi {
+    display: flex;
+}
+
+.yläpalkin__ensimmäinen-rivi__otsikko {
+    display: flex;
+}
+
+.yläpalkin__ensimmäinen-rivi__haku-palsta {
+    display: flex;
+}
+
+.yläpalkin__ensimmäinen-rivi__kirjaudu-nappi {
+    display: flex;
+}
+
+.yläpalkin__ensimmäinen-rivi__ostoskori-kuvake {
+    display: flex;
+}
+
+.yläpalkin__toinen-rivi {
+    display: flex;
+}
+
+.tuote-kategoriat {
+    display: flex;
+}
+
+.tuote-kategoriat__kategoria {
+    display: flex;
+}
+
+.sivun__alapalkki {
+    display: flex;
+}
+
+.sivun__alapalkin__ylempi-harmaaosa {
+    display: flex;
+}
+
+.sivun__alapalkin__ylempi-harmaaosa__sarake {
+    display: flex;
+}
+
+.asiakaspalvelu {
+    display: flex;
+}
+
+.asiakaspalvelu__otsikko {
+    display: flex;
+}
+
+.asiakaspalvelu__aukioloajat {
+    display: flex;
+}
+
+.aukioloajat__aukioloaika {
+    display: flex;
+}
+
+.asiakaspalvelu__aukioloajat__paivat {
+    display: flex;
+}
+
+.asiakaspalvelu__aukioloajat__ajat {
+    display: flex;
+}
+
+.asiakaspalvelu__puhelin {
+    display: flex;
+}
+
+.asiakaspalvelu__puhelin__iconi {
+    display: flex;
+}
+
+.asiakaspalvelu__puhelin__numero {
+    display: flex;
+}
+
+.asiakaspalvelu__sahkoposti {
+    display: flex;
+}
+
+.yritysmyynti {
+    display: flex;
+}
+
+.yritysmyynti__otskikko {
+    display: flex;
+}
+
+.yritysmyynti__aukioloajat {
+    display: flex;
+}
+
+.yritysmyynti__puhelin {
+    display: flex;
+}
+
+.yritysmyynti__puhelin__iconi {
+    display: flex;
+}
+
+.yritysmyynti__puhelin__numero {
+    display: flex;
+}
+
+.yritysmyynti__sahkoposti {
+    display: flex;
+}
+
+.myymala-turku {
+    display: flex;
+}
+
+.myymala-turku__otsikko {
+    display: flex;
+}
+
+.myymala-turku__aukioloajat {
+    display: flex;
+}
+
+.myymala-turku__maksutapa-tiedote {
+    display: flex;
+}
+
+.myymala-turku__sijainti {
+    display: flex;
+}
+
+.myymala-turku__sijainti__iconi {
+    display: flex;
+}
+
+.myymala-turku__sijainti__osoite {
+    display: flex;
+}
+
+.myymala-turku__postiosoite {
+    display: flex;
+}
+
+.yhteisot {
+    display: flex;
+}
+
+.yhteisot__otsikko {
+    display: flex;
+}
+
+.yhteisot__somet {
+    display: flex;
+}
+
+.yhteisot__somet__some {
+    display: flex;
+}
+
+.tilaa-uutiskirje {
+    display: flex;
+}
+
+.tilaa-uutiskirje__otsikko {
+    display: flex;
+}
+
+.tilaa-uutiskirje__text {
+    display: flex;
+}
+
+.tilaa-uutiskirje__nappi {
+    display: flex;
+}
+
+.sivun__alapalkin__alempi-harmaaosa {
+    display: flex;
+}
+
+.sivun__alapalkin__alempi-harmaaosa__sarake {
+    display: flex;
+}
+
+.info {
+    display: flex;
+}
+
+.info__otsikko {
+    display: flex;
+}
+
+.info__sivut {
+    display: flex;
+}
+
+.info__sivut__sivu {
+    display: flex;
+}
+
+.shop-in-shops {
+    display: flex;
+}
+
+.shop-in-shops__otsikko {
+    display: flex;
+}
+
+.shop-in-shops__brandit {
+    display: flex;
+}
+
+.shop-in-shops__brandit__brandi {
+    display: flex;
+}
+
+.artikkelit-ja-blogit {
+    display: flex;
+}
+
+.artikkelit-ja-blogit__otsikko {
+    display: flex;
+}
+
+.artikkelit-ja-blogit__linkit {
+    display: flex;
+}
+
+.artikkelit-ja-blogit__linkit__linkki {
+    display: flex;
+}
+
+.artikkelit-ja-blogit__linkit__linkki__linkki {
+    display: flex;
+}
+
+.sertifikaatit-ja-palkinnot {
+    display: flex;
+}
+
+.sertifikaatit-ja-palkinnot__otsikko {
+    display: flex;
+}
+
+.sertifikaatit-ja-palkinnot__stamps {
+    display: flex;
+}
+
+.sertifikaatit-ja-palkinnot__stamps__stamp {
+    display: flex;
+}
+
+.sivun__alapalkin__virallinen-osa {
+    display: flex;
+}
+
+.ehdot-ja-tietosuoja {
+    display: flex;
+}
+
+.ehdot-ja-tietosuoja__ehdot {
+    display: flex;
+}
+
+.ehdot-ja-tietosuoja__tietosuoja {
+    display: flex;
+}
+
+.copyright {
+    display: flex;
+}

@@ -1,0 +1,357 @@
+body {
+    margin: 0
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sivu {
+    display: flex;
+    flex-direction: column;
+}
+
+.sivun__yläpalkki {
+    display: flex;
+    flex-direction: column;
+}
+
+.yläpalkin__ensimmäinen-rivi {
+    display: flex;
+    flex-direction: row;
+}
+
+.yläpalkin__ensimmäinen-rivi__otsikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.yläpalkin__ensimmäinen-rivi__haku-palsta {
+    display: flex;
+    flex-direction: row;
+}
+
+.yläpalkin__ensimmäinen-rivi__kirjaudu-nappi {
+    display: flex;
+    flex-direction: row;
+}
+
+.yläpalkin__ensimmäinen-rivi__ostoskori-kuvake {
+    display: flex;
+    flex-direction: row;
+}
+
+.yläpalkin__toinen-rivi {
+    display: flex;
+    flex-direction: column;
+}
+
+.tuote-kategoriat {
+    display: flex;
+    flex-direction: row;
+}
+
+.tuote-kategoriat__kategoria {
+    display: flex;
+    flex-direction: row;
+}
+
+.sivun__alapalkki {
+    display: flex;
+    flex-direction: column;
+}
+
+.sivun__alapalkin__ylempi-harmaaosa {
+    display: flex;
+    flex-direction: row;
+}
+
+.sivun__alapalkin__ylempi-harmaaosa__sarake {
+    display: flex;
+    flex-direction: column;
+}
+
+.asiakaspalvelu {
+    display: flex;
+    flex-direction: column;
+}
+
+.asiakaspalvelu__otsikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.asiakaspalvelu__aukioloajat {
+    display: flex;
+    flex-direction: row;
+}
+
+.aukioloajat__aukioloaika {
+    display: flex;
+    flex-direction: row;
+}
+
+.asiakaspalvelu__aukioloajat__paivat {
+    display: flex;
+    flex-direction: row;
+}
+
+.asiakaspalvelu__aukioloajat__ajat {
+    display: flex;
+    flex-direction: row;
+}
+
+.asiakaspalvelu__puhelin {
+    display: flex;
+    flex-direction: row;
+}
+
+.asiakaspalvelu__puhelin__iconi {
+    display: flex;
+    flex-direction: row;
+}
+
+.asiakaspalvelu__puhelin__numero {
+    display: flex;
+    flex-direction: row;
+}
+
+.asiakaspalvelu__sahkoposti {
+    display: flex;
+    flex-direction: row;
+}
+
+.yritysmyynti {
+    display: flex;
+    flex-direction: column;
+}
+
+.yritysmyynti__otskikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.yritysmyynti__aukioloajat {
+    display: flex;
+    flex-direction: row;
+}
+
+.yritysmyynti__puhelin {
+    display: flex;
+    flex-direction: row;
+}
+
+.yritysmyynti__puhelin__iconi {
+    display: flex;
+    flex-direction: row;
+}
+
+.yritysmyynti__puhelin__numero {
+    display: flex;
+    flex-direction: row;
+}
+
+.yritysmyynti__sahkoposti {
+    display: flex;
+    flex-direction: row;
+}
+
+.myymala-turku {
+    display: flex;
+    flex-direction: column;
+}
+
+.myymala-turku__otsikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.myymala-turku__aukioloajat {
+    display: flex;
+    flex-direction: row;
+}
+
+.myymala-turku__maksutapa-tiedote {
+    display: flex;
+    flex-direction: row;
+}
+
+.myymala-turku__sijainti {
+    display: flex;
+    flex-direction: row;
+}
+
+.myymala-turku__sijainti__iconi {
+    display: flex;
+    flex-direction: row;
+}
+
+.myymala-turku__sijainti__osoite {
+    display: flex;
+    flex-direction: row;
+}
+
+.myymala-turku__postiosoite {
+    display: flex;
+    flex-direction: row;
+}
+
+.yhteisot {
+    display: flex;
+    flex-direction: column;
+}
+
+.yhteisot__otsikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.yhteisot__somet {
+    display: flex;
+    flex-direction: column;
+}
+
+.yhteisot__somet__some {
+    display: flex;
+    flex-direction: row;
+}
+
+.tilaa-uutiskirje {
+    display: flex;
+    flex-direction: column;
+}
+
+.tilaa-uutiskirje__otsikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.tilaa-uutiskirje__text {
+    display: flex;
+    flex-direction: row;
+}
+
+.tilaa-uutiskirje__nappi {
+    display: flex;
+    flex-direction: row;
+}
+
+.sivun__alapalkin__alempi-harmaaosa {
+    display: flex;
+    flex-direction: column;
+}
+
+.sivun__alapalkin__alempi-harmaaosa__sarake {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__otsikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.info__sivut {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__sivut__sivu {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop-in-shops {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-in-shops__otsikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop-in-shops__brandit {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-in-shops__brandit__brandi {
+    display: flex;
+    flex-direction: row;
+}
+
+.artikkelit-ja-blogit {
+    display: flex;
+    flex-direction: column;
+}
+
+.artikkelit-ja-blogit__otsikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.artikkelit-ja-blogit__linkit {
+    display: flex;
+    flex-direction: row;
+}
+
+.artikkelit-ja-blogit__linkit__linkki {
+    display: flex;
+    flex-direction: row;
+}
+
+.artikkelit-ja-blogit__linkit__linkki__linkki {
+    display: flex;
+    flex-direction: row;
+}
+
+.sertifikaatit-ja-palkinnot {
+    display: flex;
+    flex-direction: column;
+}
+
+.sertifikaatit-ja-palkinnot__otsikko {
+    display: flex;
+    flex-direction: row;
+}
+
+.sertifikaatit-ja-palkinnot__stamps {
+    display: flex;
+    flex-direction: row;
+}
+
+.sertifikaatit-ja-palkinnot__stamps__stamp {
+    display: flex;
+    flex-direction: row;
+}
+
+.sivun__alapalkin__virallinen-osa {
+    display: flex;
+    flex-direction: column;
+}
+
+.ehdot-ja-tietosuoja {
+    display: flex;
+    flex-direction: column;
+}
+
+.ehdot-ja-tietosuoja__ehdot {
+    display: flex;
+    flex-direction: row;
+}
+
+.ehdot-ja-tietosuoja__tietosuoja {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+}

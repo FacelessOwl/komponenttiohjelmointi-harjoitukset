@@ -1,0 +1,15 @@
+.rivi {
+    display: flex;
+    flex-direction: row;
+    background-color: violet;
+    border: solid 1px black;
+    padding: 7px;
+}
+
+.sarake {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    border: solid 1px black; 
+    padding: 7px;
+}
