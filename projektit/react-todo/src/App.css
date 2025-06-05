@@ -1,0 +1,76 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input-area {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 250px;
+  font-size: 16px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters .active {
+  background-color: #28a745;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+li {
+  background: #f4f4f4;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-buttons button {
+  margin-left: 5px;
+}
+
+.bottom-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
